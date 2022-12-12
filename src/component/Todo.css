@@ -1,0 +1,61 @@
+.todo-check{
+    align-items: center;
+    border: none;
+    width: 50px;
+}
+
+.check-btn{
+    font-size: 30px;
+}
+
+.check-btn:hover{
+    color: rgba(0,255,207,1);
+}
+
+.todo-trash{
+    align-items: center;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    border: none;
+    width: 50px;
+}
+
+.trash-btn{
+    font-size: 30px;
+}
+
+.trash-btn:hover{
+    color: #EB596A;
+}
+
+.todo{
+    display: flex;
+    margin-bottom: 5px;
+    background: linear-gradient(111deg, rgba(255,255,255,0.7) 0%, rgba(255,255,255,0.65) 50%);
+    backdrop-filter: blur(10px);
+    border-radius: 5px;
+}
+
+.todo-item{
+    display: flex;
+    justify-content: start;
+    list-style: none;
+    width: 260px;
+    align-items: center;
+    padding: 10px;
+    height: 30px;
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.todo-check.completed{
+    color: rgba(0,255,207,1);
+}
+
+.completed{
+    text-decoration: line-through;
+    opacity: 80%;
+    color: rgb(104, 104, 104);
+ 
+}
