@@ -1,7 +1,7 @@
-#This is a React Todo app 
+This is a React Todo app 
 A React Todo app for apply work with Skuberg Company
 
-#Instructions
+Instructions
 First clone this repo
 ```bash
 $ git clone https://github.com/kabirbaidhya/react-todo-app.git
