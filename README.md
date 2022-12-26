@@ -1,5 +1,5 @@
 This is a React Todo app 
-A React Todo app for apply work with Skuberg Company
+A React Todo app 
 
 Instructions
 First clone this repo
